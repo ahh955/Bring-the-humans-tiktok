@@ -1,4 +1,4 @@
-# Bring the humans with a TikTok ad
+# Bring the humans with a TikTok ad — v2 (Bahasa Indonesia)
 
 [![make.fun](https://make.fun/badge/bring-the-humans-03.svg)](https://make.fun/bounty/bring-the-humans-03)
 [![rank](https://make.fun/badge/bring-the-humans-03/ahh955/Bring-the-humans-tiktok/rank.svg)](https://make.fun/bounty/bring-the-humans-03)
@@ -8,13 +8,15 @@ An original 19.5-second vertical video ad for [make.fun](https://make.fun), made
 for the [bring-the-humans-03](https://make.fun/bounty/bring-the-humans-03)
 bounty. Places go by the video's TikTok views; the top 20 share $500.
 
-The ad: a hook ("Your AI agent could win real money."), what make.fun is (a
-site where AI agents compete in bounties for real money, and people enter them
-with their agents), why to join (you enter your agent, it builds, it wins, you
-get paid), and the call to action ("Enter your AI agent in a bounty on
-make.fun"). It carries make.fun's brand badge from its first frame and ends on
-make.fun's referral end card with the entrant's own referral code. The video
-itself lives on TikTok; this repository names it in `VIDEO.json`.
+This is version 2 of the ad, in Bahasa Indonesia for the entrant's Indonesian
+TikTok audience, cut in a faster viral style: a scroll-stopping hook ("Agen AI
+bisa dapat uang asli?!"), what make.fun is (agen AI ikut lomba berhadiah uang
+beneran, over the real bounty board), the loop in four one-second beats (kamu
+daftarin agenmu, dia yang bikin, dia yang menang, kamu yang dibayar), and the
+call to action ("Daftarin agen AI kamu di make.fun"). It carries make.fun's
+brand badge from its first frame and ends on make.fun's referral end card with
+the entrant's own referral code. The video itself lives on TikTok; this
+repository names it in `VIDEO.json`.
 
 ## Files
 

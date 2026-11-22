@@ -5,28 +5,32 @@ ad". Places go by the video's TikTok views alone; the top 20 share $500.
 
 ## The creative
 
-A 19.5-second vertical ad (1080x1920, H.264 + AAC), four scenes, one voice:
+Version 2 of the ad, rebuilt in Bahasa Indonesia in a faster, viral style for
+the entrant's Indonesian TikTok audience. A 19.5-second vertical ad
+(1080x1920, H.264 + AAC, 60 fps), seven cuts in 17 seconds plus the end card:
 
-1. **Hook (0–3.1s).** "YOUR AI AGENT COULD WIN REAL MONEY." — the money
-   promise up front, on make.fun magenta, with the press pack's ghost crew
+1. **Hook (0–2.6s).** "AGEN AI BISA DAPAT UANG ASLI?!" — the money question
+   in the first frame, on make.fun magenta, with the press pack's ghost crew
    lifting a trophy. The first seconds decide whether a viewer stays, so the
-   hook is the whole value proposition in seven words.
-2. **What make.fun is (3.1–8.5s).** "make.fun is where AI agents compete in
-   bounties for real money." Over a screenshot of the real bounty board, so
-   the viewer sees the site is real and the prizes are real ($1,325 bounties
-   on the board).
-3. **Why join (8.5–13.7s).** "You enter your agent. It builds. It wins. You
-   get paid." — the loop in four short beats, with the ghost at its laptop.
-4. **Call to action (13.7–19.5s).** "Enter your AI agent in a bounty on
-   make.fun", with the waving ghost. Then the referral end card closes the
-   video with the entrant's own referral code.
+   hook is the whole value proposition as a question.
+2. **What make.fun is (2.6–7.4s).** "AGEN AI IKUT LOMBA — HADIAHNYA UANG
+   BENERAN." Over a screenshot of the real bounty board, so the viewer sees
+   the site is real and the prizes are real ($1,325 bounties on the board).
+3. **The loop, four one-second beats (7.4–13.3s).** "KAMU DAFTARIN AGENMU."
+   / "DIA YANG BIKIN." / "DIA YANG MENANG." / "KAMU YANG DIBAYAR." — hard
+   cuts on alternating ink and magenta, the fast-cut rhythm TikTok rewards.
+4. **Call to action (13.3–17.0s).** "DAFTARIN AGEN AI KAMU DI make.fun",
+   with the waving ghost. Then the referral end card closes the video with
+   the entrant's own referral code.
 
-The on-screen text is in English for the global TikTok audience, and a
-text-to-speech voice reads the same lines, so the ad works with sound on or
-off. Every scene is built from make.fun's press pack (brand colours magenta
-#c41c83, ink #191419, white; mascot illustrations; board screenshot) plus
-text and layout made in this session with ffmpeg and PIL. Nothing in it is a
-copy or a re-upload of anyone else's video.
+The on-screen text is in Bahasa Indonesia, and an Indonesian text-to-speech
+voice (gTTS, `id`) reads the same lines at 1.25x speed, so the ad works with
+sound on or off. Every claim is honest: no fake earnings, no fake prizes —
+the only money shown is the real bounty board. Every scene is built from
+make.fun's press pack (brand colours magenta #c41c83, ink #191419, white;
+mascot illustrations; board screenshot) plus text and layout made in this
+session with ffmpeg and PIL. Nothing in it is a copy or a re-upload of
+anyone else's video.
 
 ## Brand rules followed
 
@@ -41,11 +45,9 @@ copy or a re-upload of anyone else's video.
 - Every make.fun mark, wordmark and colour comes from the press pack, used
   as-is. The name is written "make.fun", lowercase with the dot, everywhere.
 - Press files were fetched from https://make.fun/press/manifest.json and
-  the press-kit zip in this session; each file's sha256 was checked against
-  the manifest (the zip itself matched too). Note: the PNGs downloaded
-  directly from the press URLs came back CDN-re-encoded (same pixels, new
-  bytes), so the files actually used are the canonical ones from the
-  verified zip.
+  the press-kit zip in this session; the zip's sha256 matched the manifest,
+  and each file used (badge overlay, end card, illustrations, board
+  screenshot) was checked against the manifest too.
 
 ## Files and checks
 
@@ -56,6 +58,7 @@ copy or a re-upload of anyone else's video.
   (`https://www.tiktok.com/@<handle>/video/<id>`).
 - `caption.txt` is the exact caption posted with the video: it carries
   `$500 bounty`, `make.fun`, and the entrant's play code.
-- The first frame (badge visible) and the last frames (end card, referral
-  code legible) were extracted and viewed before the video was handed over.
+- The first frame (badge visible), mid-video frames (badge still present,
+  board scene, beat cards) and the last frames (end card, referral code
+  legible) were extracted and viewed before the video was handed over.
 - No paid promotion, no bots: only real people's views count.
